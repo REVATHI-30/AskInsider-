@@ -1,0 +1,211 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;	
+}
+
+html{ 
+	background: #FFFFFF;
+}
+
+body{
+	position: relative;
+width: 1440px;
+height: 898px;
+background:linear-gradient(to right,#FFFFFF 0%,#FFFFFF 50%,#DCEAFF 50%,#DCEAFF 100%);
+}
+
+.text{
+position: absolute;
+width: 271px;
+height: 28px;
+left: 212px;
+top: 219px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #8692A6;	
+}
+
+.text1{
+position: absolute;
+width: 266px;
+height: 31px;
+left: 158px;
+top: 292px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+
+
+display: flex;
+align-items: center;
+
+color: #000000;	
+}
+
+.text2{
+	position: absolute;
+width: 411px;
+height: 56px;
+left: 158px;
+top: 335px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+
+display: flex;
+align-items: center;
+
+color: #8692A6;
+}
+
+.text3{
+position: absolute;
+width: 413px;
+height: 58px;
+left: 873px;
+top: 85px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 130%;
+
+display: flex;
+align-items: center;
+
+color: #105C91;
+
+}
+
+.text4{
+	position: absolute;
+width: 409px;
+height: 140px;
+left: 875px;
+top: 191px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+
+text-align: center;
+color: #000000;
+}
+
+.image1{
+
+position: absolute;
+width: 645px;
+height: 457px;
+left: 795px;
+top: 367px;
+
+background: #DCEAFF;
+}
+
+.form{
+margin:0 auto;
+}
+
+.form input{
+	padding:15px;
+	margin:10px;
+}
+
+.hemail{
+	position: absolute;
+width: 99px;
+height: 17px;
+left:160px;
+top: 460px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+.email{
+	box-sizing: border-box;
+
+position: absolute;
+width: 350px;
+height: 50px;
+left: 150px;
+top: 470px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+}
+
+.hpass{
+	position: absolute;
+width: 150px;
+height: 17px;
+left: 160px;
+top: 540px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.pass{
+box-sizing: border-box;
+
+position: absolute;
+width: 350px;
+height: 50px;
+left: 150px;
+top: 550px;
+
+border: 1px solid #000000;
+border-radius: 8px;
+}
+
+.submit{
+box-sizing: border-box;
+
+position: absolute;
+width: 154px;
+height: 50px;
+left: 256px;
+top: 629px;
+
+background: #105C91;
+border: 1px solid #000000;
+border-radius: 8px;
+}
